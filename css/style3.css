@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(110deg, white 68%, #ffc800 32% );
+}
+/* navbar */
+#logo{
+    font-size: 30px;
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+#logo img{
+    margin-bottom: 10px;
+}
+#logo span{
+    color: #ffc800;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.nav-item .nav-link{
+    color: black;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+#fisrt-child{
+    color: #ffc800;
+    text-shadow: 1px 1px 1px black;
+}
+.nav-item .nav-link:hover{
+    color: #ffc800;
+    text-shadow: 1px 1px 1px black;
+}
+.icons{
+    margin-left: 10px;
+    cursor: pointer;
+}    
+/* navbar */
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.about-us {
+    padding: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0px;
+}
+
+.about-us h1 {
+    text-align: center;
+    color: #ffc800;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2 em;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.text {
+    flex: 1;
+    min-width: 100px;
+}
+
+.text h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.text p {
+    color: rgb(44, 40, 40);
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding: 0%;
+}
+
+.image {
+    flex: 1;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image img {
+    margin-left: 100px;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
